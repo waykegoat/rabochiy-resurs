@@ -25,7 +25,7 @@
           <div class="card-price">
             <div class="price-amount">
               <span class="currency">₽</span>
-              <span class="number">3 500</span>
+              <span class="number">от 3 500</span>
             </div>
             <div class="price-period">/ смена (8 часов)</div>
           </div>
@@ -53,7 +53,7 @@
           <div class="card-price">
             <div class="price-amount">
               <span class="currency">₽</span>
-              <span class="number">5 500</span>
+              <span class="number">от 5 500</span>
             </div>
             <div class="price-period">/ смена (8 часов)</div>
           </div>
@@ -175,13 +175,13 @@ const workSteps = ref([
   { title: 'Расчет', text: 'Рассчитываем стоимость и сроки' },
   { title: 'Выезд', text: 'Бригада выезжает на объект' },
   { title: 'Работа', text: 'Выполняем работу качественно' },
-  { title: 'Оплата', text: ''После двух отработанных часов до 13:00 }
+  { title: 'Оплата', text: 'После двух отработанных часов до 13:00' }
 ])
 
 const urgencyOptions = ref([
   { value: 'standard', label: 'Стандартная' },
   { value: 'urgent', label: 'Срочная (+20%)' },
-  { value: 'today', label: 'Сегодня (+50%)' }
+  { value: 'today', label: 'Сегодня (+30%)' }
 ])
 
 // Вычисляемая стоимость
